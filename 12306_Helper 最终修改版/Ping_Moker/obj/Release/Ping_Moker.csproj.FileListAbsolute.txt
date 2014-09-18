@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\12306_Helper_TFS\Ping_Moker\bin\Release\Ping_Moker.dll
+C:\Users\Administrator\Desktop\12306_Helper_TFS\Ping_Moker\bin\Release\Ping_Moker.pdb
+C:\Users\Administrator\Desktop\12306_Helper_TFS\Ping_Moker\obj\Release\Ping_Moker.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\12306_Helper_TFS\Ping_Moker\obj\Release\Ping_Moker.dll
+C:\Users\Administrator\Desktop\12306_Helper_TFS\Ping_Moker\obj\Release\Ping_Moker.pdb

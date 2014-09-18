@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="confirmPassengerAction_checkOrderInfo" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/confirmPassengerAction.do?method=checkOrderInfo</value>
+    <comment>验证订单</comment>
+  </data>
+  <data name="confirmPassengerAction_confirmSingleForQueue" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/confirmPassengerAction.do?method=confirmSingleForQueue</value>
+    <comment>确认队列信息</comment>
+  </data>
+  <data name="confirmPassengerAction_getpassengerJson" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/confirmPassengerAction.do?method=getpassengerJson</value>
+    <comment>获取联系人信息</comment>
+  </data>
+  <data name="confirmPassengerAction_getQueueCount" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/confirmPassengerAction.do?method=getQueueCount</value>
+    <comment>提交订单，并返回队列</comment>
+  </data>
+  <data name="confirmPassengerAction_init" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/confirmPassengerAction.do?method=init</value>
+    <comment>获取联系人Token</comment>
+  </data>
+  <data name="editMemberAction_initEdit" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/sysuser/editMemberAction.do?method=initEdit</value>
+    <comment>初始化编辑联系人页面</comment>
+  </data>
+  <data name="loginAction_AysnSuggest" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/loginAction.do?method=loginAysnSuggest</value>
+    <comment>登录随机码</comment>
+  </data>
+  <data name="loginAction_init" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/loginAction.do?method=init</value>
+    <comment>登录</comment>
+  </data>
+  <data name="loginAction_login" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/loginAction.do?method=login</value>
+    <comment>登录</comment>
+  </data>
+  <data name="main_jsp" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/main.jsp</value>
+    <comment>主页</comment>
+  </data>
+  <data name="mormhweb_zxdt" xml:space="preserve">
+    <value>http://www.12306.cn/mormhweb/zxdt/tlxw_tip.html</value>
+    <comment>获取最新动态</comment>
+  </data>
+  <data name="myOrderAction_queryMyOrder" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/myOrderAction.do?method=queryMyOrder</value>
+    <comment>查询订单</comment>
+  </data>
+  <data name="myOrderAction_queryMyOrderNotComplete" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/myOrderAction.do?method=queryMyOrderNotComplete&amp;leftmenu=Y</value>
+    <comment>初始化未完成订单页面</comment>
+  </data>
+  <data name="myOrderAction_queryOrderWaitTime" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/myOrderAction.do?method=queryOrderWaitTime&amp;tourFlag=dc</value>
+    <comment>开始占座</comment>
+  </data>
+  <data name="myOrderAction_showMessage" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/myOrderAction.do?method=init&amp;showMessage=Y</value>
+    <comment>查询未完成订单Token</comment>
+  </data>
+  <data name="orderAction_cancelMyOrderNotComplete" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/orderAction.do?method=cancelMyOrderNotComplete</value>
+    <comment>取消未完成订单</comment>
+  </data>
+  <data name="ostweb" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/</value>
+    <comment>主页</comment>
+  </data>
+  <data name="passCodeAction_randp" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passCodeAction.do?rand=randp</value>
+    <comment>订单验证码</comment>
+  </data>
+  <data name="passCodeAction_sjrand" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passCodeAction.do?rand=sjrand</value>
+    <comment>登录验证码</comment>
+  </data>
+  <data name="passengerAction_getPagePassengerAll" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passengerAction.do?method=getPagePassengerAll</value>
+  </data>
+  <data name="passengerAction_initModifyPassenger" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passengerAction.do?method=initModifyPassenger</value>
+  </data>
+  <data name="passengerAction_initUsualPassenger12306" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passengerAction.do?method=initUsualPassenger12306</value>
+    <comment>初始化联系人</comment>
+  </data>
+  <data name="passengerAction_modifyPassenger" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passengerAction.do?method=modifyPassenger</value>
+  </data>
+  <data name="querySingleAction_init" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/querySingleAction.do?method=init</value>
+    <comment>查询Token</comment>
+  </data>
+  <data name="querySingleAction_queryaTrainStopTimeByTrainNo" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/querySingleAction.do?method=queryaTrainStopTimeByTrainNo</value>
+    <comment>获取过站信息</comment>
+  </data>
+  <data name="querySingleAction_queryLeftTicket" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/querySingleAction.do?method=queryLeftTicket</value>
+    <comment>查询操作</comment>
+  </data>
+  <data name="querySingleAction_submutOrderRequest" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/order/querySingleAction.do?method=submutOrderRequest</value>
+    <comment>获取订单Token</comment>
+  </data>
+  <data name="Advice" xml:space="preserve">
+    <value>http://www.fishlee.net/Discussion/Advice/51</value>
+    <comment>建议反馈</comment>
+  </data>
+  <data name="Bug" xml:space="preserve">
+    <value>http://www.fishlee.net/Discussion/Bug/51</value>
+    <comment>Bug提交</comment>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>http://www.fishlee.net/Discussion/Common/51</value>
+    <comment>常规讨论</comment>
+  </data>
+  <data name="Developer" xml:space="preserve">
+    <value>http://www.fishlee.net/Discussion/Developer/51</value>
+    <comment>开发者讨论</comment>
+  </data>
+  <data name="MainPage" xml:space="preserve">
+    <value>http://www.fishlee.net/soft/12306_helper/</value>
+    <comment>主页</comment>
+  </data>
+  <data name="GetDnsInterface" xml:space="preserve">
+    <value>http://www.fishlee.net/apps/cn12306/serverip/?method=get</value>
+    <comment>获取缓存服务器地址列表(后花园)</comment>
+  </data>
+  <data name="domain" xml:space="preserve">
+    <value>dynamic.12306.cn</value>
+  </data>
+  <data name="ServerUpload" xml:space="preserve">
+    <value>http://www.fishlee.net/Apps/Cn12306/ServerIP?method=reg&amp;ip=</value>
+    <comment>上报IP</comment>
+  </data>
+  <data name="GetDnsInterfaceATM" xml:space="preserve">
+    <value>http://www.innke.cn:8080/Play/index.jsp</value>
+    <comment>获取缓存服务器地址列表(老婆的ATM)</comment>
+  </data>
+  <data name="GetDnsInterface1" xml:space="preserve">
+    <value>http://www.fishlee.net/Apps/Cn12306/IpService/get</value>
+    <comment>获取缓存服务器地址列表(后花园)</comment>
+  </data>
+  <data name="ServerUploadCloud" xml:space="preserve">
+    <value>http://www.fishlee.net/apps/cn12306/ipservice/update</value>
+    <comment>上报到云端</comment>
+  </data>
+  <data name="passengerAction_initUsualPassenger12306All" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passengerAction.do?method=initUsualPassenger12306#</value>
+    <comment>显示全部联系人</comment>
+  </data>
+  <data name="initAddPassenger" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passengerAction.do?method=initAddPassenger&amp;</value>
+    <comment>添加联系人</comment>
+  </data>
+  <data name="savePassenger" xml:space="preserve">
+    <value>https://dynamic.12306.cn/otsweb/passengerAction.do?method=savePassenger</value>
+    <comment>保存联系人</comment>
+  </data>
+</root>

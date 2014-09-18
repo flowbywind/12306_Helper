@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36693506-2188-4796-8622-B26C394919ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_12306_Helper</RootNamespace>
+    <AssemblyName>12306_Helper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>0.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>aNyoNe.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JSON">
+      <HintPath>bin\Release\JSON.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>bin\Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleUpdater, Version=2.2.0.0, Culture=neutral, PublicKeyToken=8bf54bd6729f490c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\SimpleUpdater.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoBooker.cs" />
+    <Compile Include="CityTelcode.cs" />
+    <Compile Include="ConfigInfo.cs" />
+    <Compile Include="ConfigList.cs" />
+    <Compile Include="DatasList.cs" />
+    <Compile Include="EncodeAndDecode.cs" />
+    <Compile Include="formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formNewContentcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formNewContentcs.Designer.cs">
+      <DependentUpon>formNewContentcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formOrderSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formOrderSelect.designer.cs">
+      <DependentUpon>formOrderSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPassengersEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPassengersEdit.designer.cs">
+      <DependentUpon>formPassengersEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSelectSaleTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSelectSaleTime.Designer.cs">
+      <DependentUpon>formSelectSaleTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSelectTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSelectTicket.Designer.cs">
+      <DependentUpon>formSelectTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShowStyle.cs" />
+    <Compile Include="formSubmitOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSubmitOrder.Designer.cs">
+      <DependentUpon>formSubmitOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSwitchServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSwitchServer.Designer.cs">
+      <DependentUpon>formSwitchServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetPassengerAction.cs" />
+    <Compile Include="HTML_Translation.cs" />
+    <Compile Include="HttpWebRequestHelper.cs" />
+    <Compile Include="LocalCookie.cs" />
+    <Compile Include="LogClass.cs" />
+    <Compile Include="LoginAction.cs" />
+    <Compile Include="ModifyPassengerAction.cs" />
+    <Compile Include="MyOrderData.cs" />
+    <Compile Include="OpenIE_API.cs" />
+    <Compile Include="OrderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderControl.Designer.cs">
+      <DependentUpon>OrderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderData.cs" />
+    <Compile Include="OrderSelectAction.cs" />
+    <Compile Include="PassengersAllData.cs" />
+    <Compile Include="PassengersData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickTrainData.cs" />
+    <Compile Include="SelectTicketAction.cs" />
+    <Compile Include="StringHelper.cs" />
+    <Compile Include="SubmitDataOperation.cs" />
+    <Compile Include="SubmitOrderAction.cs" />
+    <Compile Include="TrainData.cs" />
+    <Compile Include="TrainStations.cs" />
+    <Compile Include="WebRequestHelper.cs" />
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formNewContentcs.resx">
+      <DependentUpon>formNewContentcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formOrderSelect.resx">
+      <DependentUpon>formOrderSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPassengersEdit.resx">
+      <DependentUpon>formPassengersEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSelectSaleTime.resx">
+      <DependentUpon>formSelectSaleTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSelectTicket.resx">
+      <DependentUpon>formSelectTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSubmitOrder.resx">
+      <DependentUpon>formSubmitOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSwitchServer.resx">
+      <DependentUpon>formSwitchServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderControl.resx">
+      <DependentUpon>OrderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="aNyoNe.pfx" />
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0.ico" />
+    <Content Include="1.ico" />
+    <None Include="bin\Release\Sound_Sucessed.wav" />
+    <None Include="bin\Release\Sound_GetTicket.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ping_Moker\Ping_Moker.csproj">
+      <Project>{CA3FDF00-32D3-4386-B0EF-8589D44FF237}</Project>
+      <Name>Ping_Moker</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

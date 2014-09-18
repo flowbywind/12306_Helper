@@ -1,0 +1,8 @@
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.AutoServerSwitch\bin\Debug\aNyoNe.AutoServerSwitch.dll
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.AutoServerSwitch\bin\Debug\aNyoNe.AutoServerSwitch.pdb
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.AutoServerSwitch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.AutoServerSwitch\obj\Debug\aNyoNe.AutoServerSwitch.csprojResolveAssemblyReference.cache
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.AutoServerSwitch\obj\Debug\aNyoNe.AutoServerSwitch.formSwitchServer.resources
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.AutoServerSwitch\obj\Debug\aNyoNe.AutoServerSwitch.csproj.GenerateResource.Cache
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.AutoServerSwitch\obj\Debug\aNyoNe.AutoServerSwitch.dll
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.AutoServerSwitch\obj\Debug\aNyoNe.AutoServerSwitch.pdb

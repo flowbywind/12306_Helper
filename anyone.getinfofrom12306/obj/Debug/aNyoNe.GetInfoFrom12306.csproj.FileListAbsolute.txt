@@ -1,0 +1,9 @@
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\bin\Debug\aNyoNe.GetInfoFrom12306.dll
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\bin\Debug\aNyoNe.GetInfoFrom12306.pdb
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\obj\Debug\aNyoNe.GetInfoFrom12306.csprojResolveAssemblyReference.cache
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\obj\Debug\aNyoNe.GetInfoFrom12306.Properties.Resources.resources
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\obj\Debug\aNyoNe.GetInfoFrom12306.FormWebData.resources
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\obj\Debug\aNyoNe.GetInfoFrom12306.csproj.GenerateResource.Cache
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\obj\Debug\aNyoNe.GetInfoFrom12306.dll
+C:\Users\stupidcats\Desktop\12306_Helper_TFS_1\aNyoNe.GetInfoFrom12306\obj\Debug\aNyoNe.GetInfoFrom12306.pdb
